@@ -1,5 +1,5 @@
 """
-    The code will covert the text of pdf into the audio.
+    The code will covert the text of pdf into the audio. This can't convert images or tabe or any other than text into audio.
     Libraries that should be installed are:
         pip install PyPDF4
         pip install gTTS
@@ -20,4 +20,5 @@ def pdf_to_audio(file_name):
         tts.save(f"{page}.mp3")
 
 # Function Calling
+# Fil should be in pdf form
 pdf_to_audio("File.pdf")
