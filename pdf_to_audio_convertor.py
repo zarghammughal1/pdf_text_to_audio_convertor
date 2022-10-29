@@ -8,6 +8,7 @@
 from PyPDF4 import PdfFileReader
 from gtts import gTTS
 
+# Function that convert the pdf text to audio.
 def pdf_to_audio(file_name):
     """
     The code will covert the text of pdf into the audio.
